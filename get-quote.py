@@ -12,8 +12,8 @@ def primary():
   rnd1 = random.randint(0, last)
   rnd2 = random.randint(0, last) 
 
-  print(quotes[rnd1])
-  print(quotes[rnd2])
+  print(quotes[rnd1], end="")
+  print(quotes[rnd2], end="")
 
 if __name__== "__main__":
   primary()
